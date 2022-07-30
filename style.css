@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: linear-gradient(to right, #dee3e9 0%, #cbdcfd 100%);
+  /* background-repeat: no-repeat; */
+}
+
+#Container {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #498fdf;
+}
+#showBalance {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  color: #6ea7e9;
+}
+#showAmount {
+  margin-left: 10px;
+  font-size: 15px;
+  color: darkblue;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid lightgray;
+  padding: 30px;
+  background-image: linear-gradient(
+    to top,
+    #cbe1fd 0%,
+    #aed0f7 1%,
+    #dee6e9 100%
+  );
+}
+#ETE {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  width: 400px;
+}
+#amount {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+}
+#eth {
+  margin-left: 10px;
+}
+#ethAmount {
+  width: 290px;
+  height: 25px;
+  margin-left: 10px;
+}
+#fundButton {
+  width: 60px;
+  height: 31.16px;
+  border: 1px solid black;
+  transition: transform 450ms;
+  border-radius: 2px;
+}
+#connectButton {
+  width: 80px;
+  height: 31.6px;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  transition: transform 450ms;
+}
+#balanceButton {
+  width: 80px;
+  height: 31.6px;
+  border-radius: 5px;
+  margin-right: 20px;
+  border: 1px solid black;
+  transition: transform 450ms;
+}
+#withdrawButton {
+  width: 80px;
+  height: 31.6px;
+  border-radius: 5px;
+  transition: transform 450ms;
+  border: 1px solid black;
+}
+#fundButton:hover {
+  transform: scale(1.09);
+  border: none;
+  background-color: #498fdf;
+  border-radius: 2px;
+}
+#connectButton:hover {
+  transform: scale(1.09);
+  background-color: #498fdf;
+  border: none;
+  border-radius: 5px;
+}
+#balanceButton:hover {
+  transform: scale(1.09);
+  background-color: #498fdf;
+  border: none;
+  border-radius: 5px;
+}
+#withdrawButton:hover {
+  border: none;
+  transform: scale(1.09);
+  background-color: #498fdf;
+  border-radius: 5px;
+}
