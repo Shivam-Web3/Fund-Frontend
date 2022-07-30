@@ -1,3 +1,3 @@
 # Fund-Frontend
 
-Simple html frontend of Fund Me contract.
+Simple html-CSS frontend of Fund Me contract.
