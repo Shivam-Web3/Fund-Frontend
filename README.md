@@ -1,6 +1,6 @@
 # Fund-Frontend
 
-Simple html-CSS frontend of Fund Me contract deployed on rinkeby.
+Simple HTML-CSS frontend of Fund Me contract deployed on rinkeby.
 
 ## Features
 1. getBalance
